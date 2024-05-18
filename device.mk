@@ -562,4 +562,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.zram.periodic_wb_delay_hours=24
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sweet2/sweet2-vendor.mk)
