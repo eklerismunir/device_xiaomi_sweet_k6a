@@ -151,6 +151,8 @@ PRODUCT_COPY_FILES += \
 
 # Dexpreopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
+    TrebuchetQuickStep \
+    Settings \
     SystemUI
 
 # Display
