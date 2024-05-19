@@ -18,10 +18,7 @@ BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
 BOARD_VENDOR := xiaomi
 
-# Inherit from proprietary files for miuicamera
--include vendor/xiaomi/sweet-miuicamera/products/board.mk
-
-DEVICE_PATH := device/xiaomi/sweet
+DEVICE_PATH := device/xiaomi/sweet_k6a
 
 # Architecture
 TARGET_ARCH := arm64
@@ -39,7 +36,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a55
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := sweet_k6a
 
 # Audio
 AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
@@ -86,8 +83,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
-TARGET_KERNEL_CONFIG := vendor/sweet_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet_k6a
+TARGET_KERNEL_CONFIG := vendor/sweet2.config
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 LLVM_IAS=1
 KERNEL_LD := LD=ld.lld
@@ -228,4 +225,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from proprietary files
-include vendor/xiaomi/sweet/BoardConfigVendor.mk
+include vendor/xiaomi/sweet_k6a/BoardConfigVendor.mk

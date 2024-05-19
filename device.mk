@@ -23,9 +23,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-# Call the MiuiCamera setup
-$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
-
 # Inherit from ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
@@ -562,4 +559,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.zram.periodic_wb_delay_hours=24
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sweet_k6a/sweet_k6a-vendor.mk)
