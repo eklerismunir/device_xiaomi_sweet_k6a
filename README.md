@@ -1,17 +1,17 @@
 Copyright (C) 2023 The LineageOS Project
 
-Device configuration for Xiaomi Redmi Note 10 Pro/Pro Max
+Device configuration for Xiaomi Redmi Note 12 Pro 4G
 =========================================
 
-The Xiaomi Redmi Note 10 Pro/Pro Max (codenamed _"sweet_k6a"_) is a mid-range smartphone from Xiaomi.
+The Xiaomi Redmi Note 12 Pro 4G (codenamed _"sweet_k6a"_) is a mid-range smartphone from Xiaomi.
 
-It was announced in March 2021.
+It was announced in March 2023.
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Dual-core 2.3 GHz Kryo 470 Gold & Hexa-core 1.8 GHz Kryo 470 Silver
+CPU     | Octa-core 2x2.2 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver
 Chipset | Qualcomm SM7150 Snapdragon 732G
 GPU     | Adreno 618
 Memory  | 6/8 GB RAM
